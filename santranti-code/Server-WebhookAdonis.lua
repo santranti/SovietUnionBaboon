@@ -23,7 +23,7 @@ return function(Vargs)
 
 		local discordMessage = string.format("Command Executed: `%s` by `%s`", formattedCommand, playerName)
 
-		print("Formatted Command:", formattedCommand)  -- Debug print
+		-- print("Formatted Command:", formattedCommand)  -- Debug print
 
 		if not table.find(IGNORED_COMMANDS, data.Index) and
 			not table.find(IGNORED_COMMANDS, data.Matched) and
